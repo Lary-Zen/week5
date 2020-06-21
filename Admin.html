@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <div class="d-flex">
+        <!-- layout開始 -->
+        <header class="answer ">
+            <div class="sideBar">
+                <h1>
+                    <img src="images/logo-ANSWER.svg" alt="#">
+                </h1>
+                <ul class="list-unstyled">
+                    <li>
+                        <span class="material-icons">
+                            insert_chart
+                        </span>
+                        Dashboard
+                    </li>
+                    <li>
+                        <span class="material-icons">
+                            forum
+                        </span>
+                        Question
+                    </li>
+                    <li>
+                        <span class="material-icons">
+                            assignment
+                        </span>
+                        Assignment
+                    </li>
+
+                    <li>
+                        <span class="material-icons">
+                            video_library
+                        </span>
+                        Course
+                    </li>
+                    <li class="active">
+                        <span class="material-icons">
+                            supervisor_account
+                        </span>
+                        Admin
+                    </li>
+                    <li>
+                        <span class="material-icons">
+                            settings
+                        </span>
+                        Settings
+                    </li>
+                </ul>
+            </div>
+            <div class="producer d-flex">
+                <img src="images/andychen.jpeg" alt="#">
+                <p>Andy Chen <br> <small>andy0401@mail.com</small></p>
+            </div>
+
+        </header>
+        <!-- layout結束 -->
+        <main class="admin flex-grow-1">
+            <section class="topBar ">
+                <ul class="list-unstyled d-flex justify-content-between align-items-center">
+                    <li class="d-flex align-items-center">
+                        <h2 class="title mr-4">Admin</h2>
+                        <h3 class="subTitle">
+                            <span class="material-icons mr-1 btn-primary">
+                                add
+                            </span>
+                            Add New Admin
+                        </h3>
+                    </li>
+                    <li>
+                        <span class="material-icons ">
+                            search
+                        </span>
+                        <span class="material-icons ml-3">
+                            notifications_active
+                        </span>
+                    </li>
+                </ul>
+            </section>
+            <section class="adminTable">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                ID
+                                <span class="material-icons btn-primary">
+                                    arrow_downward
+                                </span>
+                            </th>
+                            <th scope="col ">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Verified</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">#1</th>
+                            <td>Emir Wicks</td>
+                            <td>emir.wicks@mail.com</td>
+                            <td>Yes</td>
+                            <td class="text-right">
+                                <span class="material-icons ">
+                                    remove_red_eye
+
+                                </span>
+                                <span class="material-icons ml-4 ">
+                                    edit
+                                </span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">#2</th>
+                            <td>Zaina Goldsmith</td>
+                            <td>zaina.goldsmith@mail.com</td>
+                            <td>Yes</td>
+                            <td class="text-right">
+                                <span class="material-icons">
+                                    remove_red_eye
+                                </span>
+                                <span class="material-icons ml-4">
+                                    edit
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">#3</th>
+                            <td>Mahima Lopez</td>
+                            <td>Mahima.Lopez@mail.com</td>
+                            <td>Yes</td>
+                            <td class="text-right">
+                                <span class="material-icons">
+                                    remove_red_eye
+                                </span>
+                                <span class="material-icons ml-4">
+                                    edit
+                                </span>
+                        </tr>
+                        <tr>
+                            <th scope="row">#4</th>
+                            <td>Pharrell Murray</td>
+                            <td>Pharrell.Murray@mail.com</td>
+                            <td>Yes</td>
+                            <td class="text-right">
+                                <span class="material-icons">
+                                    remove_red_eye
+                                </span>
+                                <span class="material-icons ml-4">
+                                    edit
+                                </span>
+                        </tr>
+                        <tr>
+                            <th scope="row">#5</th>
+                            <td>Annika Mcbride</td>
+                            <td>Annika.Mcbride@mail.com</td>
+                            <td>Yes</td>
+                            <td class="text-right">
+                                <span class="material-icons">
+                                    remove_red_eye
+                                </span>
+                                <span class="material-icons ml-4">
+                                    edit
+                                </span>
+                        </tr>
+                        <tr>
+                            <th scope="row">#6</th>
+                            <td>Fatimah Clark</td>
+                            <td>Fatimah.Clark@mail.com</td>
+                            <td>Yes</td>
+                            <td class="text-right">
+                                <span class="material-icons">
+                                    remove_red_eye
+                                </span>
+                                <span class="material-icons ml-4">
+                                    edit
+                                </span>
+                        </tr>
+                        <tr>
+                            <th scope="row">#7</th>
+                            <td>Klaudia Rhodes</td>
+                            <td>Klaudia.Rhodes@mail.com</td>
+                            <td>Yes</td>
+                            <td class="text-right">
+                                <span class="material-icons">
+                                    remove_red_eye
+                                </span>
+                                <span class="material-icons ml-4">
+                                    edit
+                                </span>
+                        </tr>
+                        <tr>
+                            <th scope="row">#8</th>
+                            <td>Tillie Lucero</td>
+                            <td>Tillie.Lucero@mail.com</td>
+                            <td>Yes</td>
+                            <td class="text-right">
+                                <span class="material-icons">
+                                    remove_red_eye
+                                </span>
+                                <span class="material-icons ml-4">
+                                    edit
+                                </span>
+                        </tr>
+                        <tr>
+                            <th scope="row">#9</th>
+                            <td>Sabrina Stephenson</td>
+                            <td>Sabrina.Stephenson@mail.com</td>
+                            <td>Yes</td>
+                            <td class="text-right">
+                                <span class="material-icons">
+                                    remove_red_eye
+                                </span>
+                                <span class="material-icons ml-4">
+                                    edit
+                                </span>
+                        </tr>
+                        <tr>
+                            <th scope="row">#10</th>
+                            <td>Annie Smith</td>
+                            <td>Annie.Smith@mail.com</td>
+                            <td>Yes</td>
+                            <td class="text-right">
+                                <span class="material-icons">
+                                    remove_red_eye
+                                </span>
+                                <span class="material-icons ml-4">
+                                    edit
+                                </span>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                        </tr >
+                    </tbody>
+                </table>
+            </section>
+            <div class="pagination d-flex justify-content-end">
+                <nav aria-label="Page navigation example ">
+                    <ul class="pagination">
+                        <li class="page-item ">
+                            <a class="page-link btn-primary" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&lt;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link btn-primary" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link btn-primary" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link btn-primary" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link btn-primary" href="#" aria-label="Next">
+                                <span aria-hidden="true">&gt;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </main>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

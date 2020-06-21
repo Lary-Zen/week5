@@ -1,0 +1,42 @@
+.answer{
+    max-width: 296px;
+    background-color: #EDF4EE;
+    padding: 32px 0px 32px 32px;
+}
+.sideBar{
+    h1{
+        margin-bottom: 32px;
+        padding-right: 113px;
+    }
+    li{
+        margin-bottom: 29px;
+        font-weight: 700;
+        &:last-child{
+            margin-bottom: 362px;
+        }
+        &.active{
+            color: #2A8356;
+        }
+        span{
+            margin-right: 16px;
+            vertical-align: bottom;//當段落有圖片及文字時用來做"垂直"對齊
+        }
+    }
+}
+.producer{
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 16px;
+    }
+    p{
+        font-weight: 700;
+    }
+    small{
+        color: #0000009A;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
